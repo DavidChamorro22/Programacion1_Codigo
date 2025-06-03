@@ -6,23 +6,28 @@
 // cantidad de seguntos entre dos tiempos
 
 
+
+
 int transformar_segundos(int h, int m, int s) {
     return h * 3600 + m * 60 + s;
 }
 
-
 int leer_entero_positivo(const char* mensaje) {
     int valor;
     char c;
-    while (1) {
+    int entrada_valida = 0;
+
+    while (entrada_valida == 0) {
         printf("%s", mensaje);
         if (scanf("%d%c", &valor, &c) != 2 || c != '\n' || valor < 0) {
             printf("ENTRADA INVALIDA DEBE SER UN NUMERO ENTERO POSITIVO\n");
             while (getchar() != '\n'); 
         } else {
-            return valor;
+            entrada_valida = 1;
         }
     }
+
+    return valor;
 }
 
 int main() {
@@ -43,7 +48,6 @@ int main() {
     int t2 = transformar_segundos(h2, m2, s2);
 
     int diferencia = t2 - t1;
-    
 
     printf("LA DIFERENCIA EN SEGUNDOS ENTRE LOS DOS TIEMPOS ES %d\n", diferencia);
 
