@@ -17,7 +17,7 @@ int main() {
     char c;
 
     
-    printf("CUANTOS NUMEROS DESEA INGRESAR\n");
+    printf("CUANTOS NUMEROS DESEA INGRESAR:\n");
     while (scanf("%d%c", &cantidad, &c) != 2 || c != '\n' || cantidad <= 0) {
         printf("ENTRADA INVALIDA INGRESE UN ENTERO POSITIVO\n");
         while (getchar() != '\n');

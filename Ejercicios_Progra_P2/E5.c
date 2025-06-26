@@ -28,7 +28,7 @@ int leerEntero(char nombre) {
     int n, ok;
 
     do {
-        printf("INGRESE UN NUMERO ENTERO PARA %c\n", nombre);
+        printf("INGRESE UN NUMERO ENTERO PARA: %c\n", nombre);
         ok = scanf("%d", &n);
         while (getchar() != '\n'); // Limpiar el buffer
     } while (ok != 1);

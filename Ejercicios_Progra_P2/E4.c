@@ -15,7 +15,7 @@ int leer_float(char nombre[]) {
     float valor;
     int valido;
     do {
-        printf("INGRESE %s\n", nombre);
+        printf("INGRESE: %s\n", nombre);
         valido = scanf("%f", &valor);
         if (valido != 1) {
             printf("ENTRADA INVALIDA\n");

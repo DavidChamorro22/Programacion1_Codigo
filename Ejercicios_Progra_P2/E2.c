@@ -18,7 +18,7 @@ int main() {
     char entrada;
     int leido;
 
-    printf("INGRESE UN SOLO CARACTER\n");
+    printf("INGRESE UN SOLO CARACTER:\n");
     leido = scanf(" %c", &entrada);
 
     if (leido != 1) {

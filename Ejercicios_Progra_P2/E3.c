@@ -28,7 +28,7 @@ int Calidad_Puntos(int nota) {
 int main() {
     int nota, puntos;
 
-    printf("INGRESE LA NOTA DEL ALUMNO\n");
+    printf("INGRESE LA NOTA DEL ALUMNO:\n");
     if (scanf("%d", &nota) != 1) {
         printf("ENTRADA INVALIDA\n");
         return 1;

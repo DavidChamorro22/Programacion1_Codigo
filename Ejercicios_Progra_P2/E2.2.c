@@ -38,7 +38,7 @@ int main() {
         if (resultado == 0) {
             printf("NO ES UNA LETRA\n");
         } else {
-            printf("RESULTADO %c\n", resultado);
+            printf("RESULTADO: %c\n", resultado);
         }
     }
 

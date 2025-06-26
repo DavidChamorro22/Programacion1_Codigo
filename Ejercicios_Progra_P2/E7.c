@@ -41,8 +41,8 @@ int main() {
     char c; 
 
     do {
-        num1 = pedirEntero("INGRESE EL PRIMER NUMERO ENTERO: ");
-        num2 = pedirEntero("INGRESE EL SEGUNDO NUMERO ENTERO: ");
+        num1 = pedirEntero("INGRESE EL PRIMER NUMERO ENTERO ");
+        num2 = pedirEntero("INGRESE EL SEGUNDO NUMERO ENTERO ");
 
         if (multiplo(num1, num2)) {
             printf("EL NUMERO %d ES MULTIPLO DEL NUMERO %d\n", num2, num1);
