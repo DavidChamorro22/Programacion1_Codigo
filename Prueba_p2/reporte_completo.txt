@@ -1,0 +1,7 @@
+REPORTE COMPLETO DE CONTAMINACION
+ZONA       PROMEDIO_30_DIAS   ACTUAL_PM2.5   PREDICCION     ALERTA_ACTUAL  ALERTA_PREDICCION  RECOMENDACION  
+CENTRO     21.40              23.00          22.33          NO             NO                 NORMAL         
+NORTE      30.67              19.00          19.67          NO             NO                 NORMAL         
+SUR        17.60              23.00          22.33          NO             NO                 NORMAL         
+ESTE       41.20              30.00          30.67          SI             SI                 MITIGAR        
+OESTE      10.70              5.00           5.67           NO             NO                 NORMAL         
